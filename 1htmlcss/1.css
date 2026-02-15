@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+  
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(2.jpg);
+   
+    background-size: cover;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:#fff;
+  
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+   
+}
+h2 span{
+    color: orange;
+    
+}
+.logtex {
+    margin: 15px;
+}
+nav ul li{
+    margin: 10px;
+  
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+   
+    color: orange;
+    font-size: 23px;
+   
+}
+.ftext{
+    color: #fff;
+    margin: 10%;
+}
+.ftext h1{
+    font-size: 33px;
+    color: #fff;
+    margin-bottom: 20px;
+   
+
+
+}
+h1 span{
+     text-shadow: 2px 2px 6px rgba(255, 140, 0, 0.6);
+   
+     color: #FF8C00;
+    
+}
+.ftext p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+   
+}
+.ftext button{
+ margin-left: 20%;
+}
+button{
+    padding: 10px 14px;
+    background: orange;
+    border:none;
+    color:#fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,140,0,0.7);
+
+  
+}
+button:hover{
+    background: #FFf;
+    color: orange;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+.icosmall{
+    color:#fff;
+    margin-left: 24%;
+    
+}
+.icosmall i{
+  margin: 15px;
+}
+.icosmall i:hover{
+    transform: translateX(0px) translateY(-30px);
+}
+i fa-brands fa-instagram:hover{
+      transform: translateX(0px) translateY(-30px);
+
+}
+
+
+    
+
+
+
+    
+
+
+
+
+
